@@ -1,0 +1,37 @@
+/* © 2026 Chenell Moniq'ue & Automations Bae. All rights reserved. Proprietary and confidential. Unauthorized copying, sharing, resale, or removal of this notice is prohibited. See LICENSE. */
+/* Automations Bae brand tokens.
+   Colors come from the Automations Bae brand board (assets/Automations Bae Brand Colors.png).
+   Fonts are placeholders picked to match the logo look. Swap them for your real brand fonts. */
+:root {
+  /* Brand colors */
+  --bae-navy: #0E132B;        /* main background */
+  --bae-royal-blue: #10244D;  /* surfaces, cards */
+  --bae-tech-blue: #1B4D6D;   /* secondary surfaces */
+  --bae-copper: #B87333;      /* hero accent, glows, highlights */
+  --bae-gold: #D4AF37;        /* numbers, wins, payoff */
+  --bae-cream: #F4E9D1;       /* main text on dark */
+
+  /* Accents and neutrals */
+  --bae-bronze: #CD7F32;
+  --bae-rose-gold: #E0A17A;
+  --bae-silver: #C0C0C0;
+  --bae-charcoal: #1A1F2E;
+  --bae-slate-blue: #2B3A55;
+  --bae-light-gold: #F6D98C;
+
+  /* Roles used by templates */
+  --bae-bg: var(--bae-navy);
+  --bae-surface: var(--bae-royal-blue);
+  --bae-surface-2: var(--bae-tech-blue);
+  --bae-border: var(--bae-slate-blue);
+  --bae-accent: var(--bae-copper);
+  --bae-accent-glow: var(--bae-gold);
+  --bae-warn: var(--bae-bronze);
+  --bae-text: var(--bae-cream);
+  --bae-text-dim: var(--bae-silver);
+
+  /* Fonts (placeholders) */
+  --font-mono: "Roboto Mono", ui-monospace, Menlo, monospace;
+  --font-display: "Orbitron", "Montserrat", system-ui, sans-serif;
+  --font-heading: "Oswald", "Montserrat", system-ui, sans-serif;
+}
